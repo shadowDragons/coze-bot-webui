@@ -8,7 +8,7 @@ declare global {
     CozeWebSDK: {
       WebChatClient: new (config: {
         config: {
-          bot_id: string
+          bot_id: string | null
         }
         componentProps: {
           title: string
