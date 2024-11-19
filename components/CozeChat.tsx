@@ -28,7 +28,7 @@ export default function CozeChat() {
   const searchParams = useSearchParams()
 
   useEffect(() => {
-    const botId = searchParams.get('botId') || '7428560259927031808'
+    const botId = searchParams.get('botId')
 
     const script = document.createElement('script')
     script.src = 'https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.0.0-beta.4/libs/cn/index.js'
